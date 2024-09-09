@@ -3,8 +3,10 @@
 
 using namespace std;
 
-Person::Person() : Person(nullptr, 0)
+Person::Person()
 {
+	name = nullptr;
+	age = 0;
 }
 
 Person::Person(const char* Name, int Age)
