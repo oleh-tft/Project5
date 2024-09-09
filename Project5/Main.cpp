@@ -11,6 +11,6 @@ int main()
 	Person b("G", 50);
 	b.Output();
 
-	a.SetName("X");
+	a.Input();
 	a.Output();
 }

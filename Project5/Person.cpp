@@ -20,6 +20,18 @@ Person::~Person()
 	age = 0;
 }
 
+void Person::Input()
+{
+	char buff[30];
+
+	cout << "Input Name: ";
+	cin >> buff;
+	SetName(buff);
+
+	cout << "Input Age: ";
+	cin >> age;
+}
+
 void Person::Output()
 {
 	cout << "Name: " << name << endl;
